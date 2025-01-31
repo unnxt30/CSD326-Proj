@@ -10,7 +10,7 @@
 
 | **Date**       | **Version** | **Description**                     | **Author**       |
 |-----------------|-------------|-------------------------------------|------------------|
-| [Insert Date]  | 1.0         | Initial Draft of SRS                | [Author Name]    |
+| [Insert Date]  | 1.0         | Initial Draft of SRS                |   @unnxt30   |
 
 ---
 
