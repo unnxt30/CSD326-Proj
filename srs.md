@@ -11,7 +11,7 @@
 | **Date**       | **Version** | **Description**                     | **Author**       |
 |-----------------|-------------|-------------------------------------|------------------|
 | [01/02/2025]  | 1.0         | Initial Draft of SRS                |   @unnxt30   |
-| [04/02/2025]  | 2.0         | Second Draft of SRS                |   @Dhruv27MIshra   |
+| [04/02/2025]  | 2.0         | Second Draft of SRS                |   @Dhruv27Mishra   |
 
 
 ---
@@ -130,14 +130,8 @@ The City Road Maintenance and Service Management System is designed to streamlin
 - The system shall generate statistical reports for the mayor, including the number and type of repairs carried out, outstanding repairs, and resource utilization.  
 
 ### 3.2 Usability  
-
-#### 3.2.1 Graphical User Interface  
 - The system shall provide a user-friendly interface with consistent navigation across all pages.  
-- The system shall display relevant icons and toolbars for ease of use.  
-
-#### 3.2.2 Accessibility  
-- The system shall provide multi-language support.  
-- The system shall be accessible to users with disabilities.  
+- The system shall display relevant icons and toolbars for ease of use.    
 
 ### 3.3 Reliability & Availability  
 
