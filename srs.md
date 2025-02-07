@@ -10,7 +10,9 @@
 
 | **Date**       | **Version** | **Description**                     | **Author**       |
 |-----------------|-------------|-------------------------------------|------------------|
-| [Insert Date]  | 1.0         | Initial Draft of SRS                |   @unnxt30   |
+| [01/02/2025]  | 1.0         | Initial Draft of SRS                |   @unnxt30   |
+| [04/02/2025]  | 2.0         | Second Draft of SRS                |   @Dhruv27MIshra   |
+
 
 ---
 
