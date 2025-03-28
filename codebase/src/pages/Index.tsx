@@ -5,8 +5,13 @@ import Features from '../components/Features';
 import HowItWorks from '../components/HowItWorks';
 import Footer from '../components/Footer';
 import '../index.css'
+import { useNavigate } from 'react-router-dom';
+import { useHoverAnimation } from '../lib/animations';
 
 const Index = () => {
+  const navigate = useNavigate();
+  const buttonRef = useHoverAnimation(1.05);
+
   useEffect(() => {
     // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -219,6 +224,18 @@ const Index = () => {
         </section>
       </main>
       <Footer />
+      <div className="mt-8">
+        <button
+          ref={buttonRef}
+          onClick={() => navigate('/signin')}
+          className="px-6 py-3 bg-blue-500 text-white rounded-lg
+                   font-medium transition-all duration-200 ease-in-out
+                   hover:bg-blue-600 focus:outline-none focus:ring-2
+                   focus:ring-blue-500 focus:ring-offset-2"
+        >
+          Sign In
+        </button>
+      </div>
     </div>
   );
 };
